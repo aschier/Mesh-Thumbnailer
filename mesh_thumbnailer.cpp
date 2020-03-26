@@ -98,6 +98,8 @@ int main(int argc, char **argv) {
 
 	viewer.core().camera_zoom *= 1.4;
 
-	viewer.launch_init();
+	glfwInit();
+	glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
+	viewer.launch_init(false, false, "", 1024, 1024);
 	viewer.launch_rendering(false);
 }

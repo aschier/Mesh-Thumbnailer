@@ -11,7 +11,3 @@ Currently only `obj` and `off` fileformats are supported and the format will be 
 ## Example image
 
 ![A thumnail of the armadillo mesh](examples/armadillo.png)
-
-## Known Bugs
-
-The program shortly opens a window during rendering.
