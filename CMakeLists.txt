@@ -33,3 +33,5 @@ set_target_properties(mesh_thumbnailer_bin
 target_include_directories(mesh_thumbnailer_bin
 	PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
+
+install(TARGETS mesh_thumbnailer_bin)
